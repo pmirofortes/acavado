@@ -1,22 +1,116 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link rel="stylesheet" href="./css/style.css">
-
+    <title>Transformació Digital - Escola Sant Jordi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <navbar>
-            <ul>
-                <li><a href="./views/1.html">Gestión Informatica</a></li>
-                <li><a href="./views/2.html">Gestión de RRHH</a></li>
-                <li><a href="./views/3.html">Salud</a></li>
-                <li><a href="./views/4.html">Gestión Academica</a></li>
-            </ul>
-        </navbar>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Escola Sant Jordi</h1>
+                <p>Transformació Digital</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="views/1.html">Gestió Informàtica</a></li>
+                    <li><a href="views/2.html">Gestió RRHH</a></li>
+                    <li><a href="views/3.html">Servei d'Infermeria</a></li>
+                    <li><a href="views/4.html">Gestió Acadèmica</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Pla de Transformació Digital</h2>
+                <p>Millorant els nostres processos per a una educació més eficient i connectada</p>
+                <a href="#areas" class="btn">Coneix les àrees</a>
+            </div>
+        </section>
+
+        <section id="areas" class="areas-section">
+            <h2>Àrees de Transformació</h2>
+            <div class="areas-grid">
+                <article class="area-card">
+                    <div class="card-icon">
+                        <img src="assets/computer.svg" alt="Informàtica">
+                    </div>
+                    <h3>Gestó Informàtica</h3>
+                    <p>Modernització de sistemes i gestió d'incidències</p>
+                    <a href="views/1.html" class="btn btn-outline">Veure detalls</a>
+                </article>
+
+                <article class="area-card">
+                    <div class="card-icon">
+                        <img src="assets/team.svg" alt="RRHH">
+                    </div>
+                    <h3>Gestó RRHH</h3>
+                    <p>Digitalització de processos de personal</p>
+                    <a href="views/2.html" class="btn btn-outline">Veure detalls</a>
+                </article>
+
+                <article class="area-card">
+                    <div class="card-icon">
+                        <img src="assets/health.svg" alt="Infermeria">
+                    </div>
+                    <h3>Servei d'Infermeria</h3>
+                    <p>Gestó digital de registres mèdics</p>
+                    <a href="views/3.html" class="btn btn-outline">Veure detalls</a>
+                </article>
+
+                <article class="area-card">
+                    <div class="card-icon">
+                        <img src="assets/academic.svg" alt="Acadèmic">
+                    </div>
+                    <h3>Gestó Acadèmica</h3>
+                    <p>Plataforma integrada per a gestió educativa</p>
+                    <a href="views/4.html" class="btn btn-outline">Veure detalls</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="about-content">
+                <h2>Sobre el Projecte</h2>
+                <p>El Pla de Transformació Digital de l'Escola Sant Jordi té com a objectiu modernitzar els nostres processos, millorar l'eficiència i oferir un millor servei a tota la comunitat educativa.</p>
+                <p>A través d'aquest portal podràs conèixer els detalls de cada àrea de transformació, les solucions proposades i el calendari d'implementació.</p>
+            </div>
+            <div class="about-image">
+                <img src="assets/school.jpg" alt="Escola Sant Jordi">
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-info">
+                <h3>Escola Sant Jordi</h3>
+                <p>Carrer de l'Educació, 123</p>
+                <p>08000 Barcelona</p>
+                <p>info@santjordi.cat</p>
+            </div>
+            <div class="footer-links">
+                <h3>Enllaços ràpids</h3>
+                <ul>
+                    <li><a href="views/1.html">Gestió Informàtica</a></li>
+                    <li><a href="views/2.html">Gestió RRHH</a></li>
+                    <li><a href="views/3.html">Servei d'Infermeria</a></li>
+                    <li><a href="views/4.html">Gestió Acadèmica</a></li>
+                </ul>
+            </div>
+            <div class="footer-legal">
+                <p>© 2023 Escola Sant Jordi. Tots els drets reservats.</p>
+                <p><a href="#">Política de privacitat</a> | <a href="#">Avís legal</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
